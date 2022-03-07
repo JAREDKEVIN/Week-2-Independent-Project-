@@ -1,65 +1,95 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>BIRTHDAY GENERATOR</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="stylesheet.css" type="text/css" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <title>BIRTHDAY GENERATOR</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  </head>
+  <!--custom css-->
+  <link href="stylesheet.css" type="text/css" rel="stylesheet">
 
- 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<i class="fas fa-birthday-cake  "></i>
+<!--Font Awesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <body>
-      <div class="header1">
-          <h1>WELCOME TO AKAN BIRTHDAY GENERATOR</h1>
+</head>
 
 
-      </div>
+
+
+<body>
+<nav>
+  <div class="header1">
+    <h1>WELCOME TO AKAN BIRTHDAY GENERATOR</h1>
+  </div>
+
+  <div class="imagebirthday">
+    <img src="images/birthdaypic.jpg" height="500vh" width="550vw" alt="">
+  </div>
+
+
+</nav>
+
+
+
 <!--Dropdown list of the days of the week from Sunday to monday--->
 
-        <div class="day">
-          <strong>Enter the day of the week you were born here:</strong>
-<form>
-     <select name="dayOfBirth">
-              <option value="Kwasi" selected>Sunday</option>
-              <option value="" selected>Monday</option>
-              <option value="Tuesday" selected>Tuesday</option>
-              <option value="Wednesday" selected>Wednesday</option>
-              <option value="Thursday" selected>Thursday</option>
-              <option value="Friday" selected>Friday</option>
-              <option value="Sartuday" selected>Sartuday</option>
-          </select>
-        </div>
-
-</form>
-         
-
-<div class="male">
-   <em><p>MALE</p></em>
-
-   
-<div class="form">     
-   <form>
-<input>
-   </form>
+<div class="day">
+  <strong>Enter the day of the week you were born here:</strong>
 </div>
+    
+    <!-- </div> -->
+
+  </form>
+
 </div>
+
+<div>
+
+  <form>
+    <strong>Enter your Gender here:</strong>
+    <select name="gender" id="gender">
+      <option label="Male" selected>Male</option>
+      <otion label="Female" selected>Female</otion>
+    </select>
+  </form>
+
 </div>
-      
 
-    <!-- Optional JavaScript -->
+ <section class="form container">
+        <div class="row">
+            <div class="col-md-8">
+                <form class="myform w-100">
+                    <div class="form-group mb-5">
+                        <label for="date" class="mylabel mb-4">Enter Date of birth</label>
+                        <input class="form-control input p-4" type="date" id="dateInput">
+                        <div id="message" class=" text-danger"></div>
+                    </div>
 
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+<script src="projects.js"></script>
+
 </html>

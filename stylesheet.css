@@ -1,5 +1,8 @@
 *{
-background-color:rgb(40, 59, 59);
+
+background-image:url(/images/birthdaypic.jpg); 
+margin: 0px;
+
 }
 
 h1
@@ -8,15 +11,44 @@ h1
     color: aqua;
 }
 
-.day
+.day  
+{
+  position: inherit;
+  bottom: 22px;
+  color:#fff; 
+} 
+
+.month
+{
+  position: inherit;
+   bottom: 22px;
+   color:#fff;
+}
+
+.year
 {
    position: inherit;
    bottom: 22px;
-   color:#fff;
-  
-   
+   color:#fff; 
+}
+
+
+.imagebirthday
+{
+  float: right;
 }
 .male
 {
-  color:#fff ;
+  color:#fff 
+}
+
+.female
+{
+  color: #fff;
+}
+
+.gender
+{
+  display: flex;
+  justify-content: space-between;
 }

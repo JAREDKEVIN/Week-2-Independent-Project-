@@ -1,0 +1,22 @@
+*{
+background-color:rgb(40, 59, 59);
+}
+
+h1
+{
+    text-align: center;
+    color: aqua;
+}
+
+.day
+{
+   position: inherit;
+   bottom: 22px;
+   color:#fff;
+  
+   
+}
+.male
+{
+  color:#fff ;
+}

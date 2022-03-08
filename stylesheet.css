@@ -1,54 +1,279 @@
-*{
-
-background-image:url(/images/birthdaypic.jpg); 
-margin: 0px;
-
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* color: brown; */
 }
 
-h1
-{
-    text-align: center;
-    color: aqua;
+.logo {
+  color: #db6d4a;
+  font-weight: 700;
+  font-size: 25px;
 }
 
-.day  
-{
-  position: inherit;
-  bottom: 22px;
-  color:#fff; 
-} 
-
-.month
-{
-  position: inherit;
-   bottom: 22px;
-   color:#fff;
+.logo span {
+  color: #87a8bb;
 }
 
-.year
-{
-   position: inherit;
-   bottom: 22px;
-   color:#fff; 
+.bunner img {
+  width: 100%;
+  height: 100%;
 }
 
-
-.imagebirthday
-{
-  float: right;
-}
-.male
-{
-  color:#fff 
+section {
+  height: 100%;
 }
 
-.female
-{
+.background {
+  background-image: url(../assets/bg-image.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.content {
+  width: 40%;
+}
+
+.content .title {
+  /* font-family: "DM Serif Display", serif;
+  font-size: 70px;
+  line-height: 120%;
+  font-weight: bold; */
+
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 80px;
+  line-height: 94px;
+  text-align: Left;
+  vertical-align: Top;
+  font-weight: bold;
+  color: #343434;
+  /* width: 40%; */
+}
+
+.content p {
+  font-family: Roboto;
+  font-style: Medium;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #4b4b4b;
+  /* line-height: 100%; */
+
+  /* width: 40%; */
+}
+
+.btn {
+  display: flex;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #e05e36;
+  border: none;
+  color: #fff !important;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 4px; */
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.button a {
   color: #fff;
 }
 
-.gender
-{
-  display: flex;
-  justify-content: space-between;
+.form {
+  /* display: none; */
+  /* height: 90vh;
+  width: 100%; */
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.form .input {
+  /* margin: 20px 20%; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  appearance: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px solid #e05e36;
+  background: transparent;
+  font-size: 20;
+  padding: 25px 0 !important;
+  width: 50%;
+}
+
+::-webkit-datetime-edit-text {
+  padding: 0 2rem;
+}
+::-webkit-datetime-edit-month-field {
+  text-transform: uppercase;
+}
+::-webkit-datetime-edit-day-field {
+  text-transform: uppercase;
+}
+::-webkit-datetime-edit-year-field {
+  text-transform: uppercase;
+}
+::-webkit-inner-spin-button {
+  display: none;
+}
+::-webkit-calendar-picker-indicator {
+  background: transparent;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+/* This will make the border gray when the button is not checked. */
+input[type="radio"]:not(:checked)::-ms-check {
+  border-color: #e05e36;
+}
+input[type="radio"]::-ms-check {
+  border-color: #e05e36; /* This will make the border red when the button is checked. */
+  color: #87a8bb; /* This will make the circle red when the button is checked. */
+}
+
+.mylabel {
+  font-weight: 700 !important;
+  color: #000;
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 23px;
+
+}
+
+
+.radio{
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.display{
+  display: none;;
+  height: 90vh;
+  padding: 50px 0 0 0;
+  width: 100%;
+  background: linear-gradient(#FFFFFF , #C6E7FA);
+}
+
+.display p{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.normal-title{
+    font-weight: bold;
+  font-family: Roboto;
+font-style: Bold;
+font-size: 25px;
+line-height: 29px;
+}
+
+#title{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#text{
+  font-weight: normal;
+}
+
+#messageOne{
+  font-size: 15px;
+}
+
+.p-cont strong{
+ color: rgb(7, 7, 7);
+}
+
+.africa{
+  font-size: 18px;
+}
+
+.africa span{
+  color: #e05e36;
+  font-weight: bold;
+}
+
+/* Congrats animations */
+
+
+@keyframes confetti-slow {
+  0% {
+      transform: translate3d(0, 0, 0) rotateX(0) rotateY(0);
+ }
+  100% {
+      transform: translate3d(25px, 105vh, 0) rotateX(360deg) rotateY(180deg);
+ }
+}
+@keyframes confetti-medium {
+  0% {
+      transform: translate3d(0, 0, 0) rotateX(0) rotateY(0);
+ }
+  100% {
+      transform: translate3d(100px, 105vh, 0) rotateX(100deg) rotateY(360deg);
+ }
+}
+@keyframes confetti-fast {
+  0% {
+      transform: translate3d(0, 0, 0) rotateX(0) rotateY(0);
+ }
+  100% {
+      transform: translate3d(-50px, 105vh, 0) rotateX(10deg) rotateY(250deg);
+ }
+}
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  border: 1px solid white;
+  display: fixed;
+  top: 0px;
+}
+.confetti-container {
+  perspective: 700px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.confetti {
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  border-radius: 0%;
+}
+.confetti--animation-slow {
+  animation: confetti-slow 2.25s linear 1 forwards;
+}
+.confetti--animation-medium {
+  animation: confetti-medium 1.75s linear 1 forwards;
+}
+.confetti--animation-fast {
+  animation: confetti-fast 1.25s linear 1 forwards;
 }

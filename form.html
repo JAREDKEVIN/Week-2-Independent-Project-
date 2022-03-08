@@ -1,0 +1,101 @@
+<!-- <input type="date" id="dateInput" /> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>AKAN NAMES</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light pr-5 pl-5">
+        <a class="navbar-brand" href="../index.html">
+            <img src="images/birthdaypic.jpg"  height="150vh" width="200vw" alt="birthdaypic">
+        </a>
+        <a class="navbar-brand" href="index.html">
+            <p class="logo"><span>AKAN</span>NAMES</p>
+        </a>
+    </nav>
+    <section class="form container">
+        <div class="row">
+            <div class="col-md-8">
+                <form class="myform w-100">
+                    <div class="form-group mb-5">
+                        <label for="date" class="mylabel mb-4">Enter Date of birth</label>
+                        <input class="form-control input p-4" type="date" id="dateInput">
+                        <div id="message" class=" text-danger"></div>
+                    </div>
+                    <div class="">
+                        <label for="date" class="mylabel mb-4">Gender</label>
+
+                        <div class="form-group mb-2">
+                            <div class="form-check form-check-inline w-25">
+                                <label class="form-check-label radio">
+                                    <input class="form-check-input radio" type="radio" name="inlineRadioOptions"
+                                        id="maleRadio" value="option1"> Male
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline w-15">
+                                <label class="form-check-label radio">
+                                    <input class="form-check-input radio" type="radio" name="inlineRadioOptions"
+                                        id="femaleRadio" value="option2"> Female
+                                </label>
+                            </div>
+                        </div>
+                        <div id="messageOne" class=" text-danger mb-4"></div>
+
+                        <a id="btn" class="btn text-center button p-3"> Reveal Your Akhan Name</a>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4 img">
+                <img src="/images/background.jpg"  height="200vh" width="350vw" alt="background">
+            </div>
+        </div>
+        <h1 class="text-center  mb-5">This is Africa!</h1>
+        <p class="text-center africa">African <span>culture</span> is amazing and should be embraced.</p>
+    </section>
+    <section class="display">
+
+        <!-- Congrats Annimation Div -->
+        <div class="js-container container1" style="top:0px !important;">
+        <div class="container text-center">
+            <p class="title-normal mb-5">Congrats Your Akan Name is</p>
+            <h1 id="title" class="mb-5"></h1>
+            <p id="text"></p>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

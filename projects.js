@@ -85,7 +85,7 @@ const dayOfTheWeek = () => {
         title.innerHTML = item.ghana;
         document.getElementById(
           "text"
-        ).innerHTML = `Means an African male 👨🏿 born on ${item.english}`;
+        ).innerHTML = `Means an  African Male 👨🏿 born on ${item.english}`;
       }
     });
   } else if (female.checked) {

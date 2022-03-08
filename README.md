@@ -43,6 +43,8 @@ Click on the live link.
 
 ## Reference
 * Materialize CSS
+* Bootstrap 
+* Google Fonts
 
 
 ## Authors Info

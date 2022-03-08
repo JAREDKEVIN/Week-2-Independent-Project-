@@ -51,8 +51,7 @@ Slack Profile - [Kevin Kipkemoi](https://moringaclassroom.slack.com/team/U02UL5G
 
 Linkedin - [Kevin Kipkemoi](https://www.linkedin.com/in/kevin-kipkemoi-595088ba/)
 
-# license
+
 [License](LICENSE)
 
-[Go Back to the top](#portfolio)
 

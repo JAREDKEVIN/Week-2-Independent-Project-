@@ -158,7 +158,11 @@ input[type="radio"]::-ms-check {
 
 }
 
-
+.culture
+{
+  text-align: center;
+  padding-top: 100px;
+}
 .radio{
   font-size: 18px;
   margin-bottom: 20px;

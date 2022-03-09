@@ -4,11 +4,17 @@ let title = document.getElementById("title");
 let text = document.getElementById("text");
 let tDate = document.getElementById("dateInput")
 
+//century digits
 let CC;
+//day of the month
 let DD;
+//year digits
 let YY;
+//month
 let MM;
+//day
 let day;
+//
 let d;
 
 
